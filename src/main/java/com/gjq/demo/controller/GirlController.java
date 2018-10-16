@@ -40,6 +40,7 @@ public class GirlController {
         girl.setId(id);
         girl.setAge(age);
         girl.setCupSize(cupSize);
+        System.out.println("sdfddg");
         return girlRepository.save(girl);
     }
     @DeleteMapping (value = "/girls/{id}")
